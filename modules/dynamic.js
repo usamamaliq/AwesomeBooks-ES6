@@ -20,10 +20,9 @@ export const showBooksOnly = () => {
   awesomeHeading.style.display = 'block';
   bookItems.style.display = 'flex';
 };
-
-export function showOnlyContact() {
+export const showOnlyContact = () => {
   addBookList.style.display = 'none';
   awesomeHeading.style.display = 'none';
   bookItems.style.display = 'none';
   contact.style.display = 'flex';
-}
+};

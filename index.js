@@ -29,7 +29,6 @@ form.addEventListener('submit', (e) => {
   const author = document.querySelector('#author').value;
   // validating form fields
   if (title === '' || author === '') {
-    // eslint-disable-next-line no-alert
     alert('You must fill in all fields');
   } else {
     const book = new Book(title, author);
